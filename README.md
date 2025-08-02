@@ -1,15 +1,15 @@
 # WindowsAccesControl-WAC
 This project implements an access control system for a user by allowing a user to log in only with his password and a specific access key (in this example a USB stick).
-If the USB device is missing, the user will be logged off immediately.
+If the USB device is missing, the user will be logged off immediately. The whole process is also logged and saved in a log.txt file in the Scripts Folder on your main mount(Detailed in Desc.).
 ---
-## Warning: Do not implement this code in systems that you are not allowed to have full access to, this code Code may result in complete loss of user information
+### Warning: Do not implement this code in systems that you are not allowed to have full access to, this code Code may result in complete loss of user information
 
-## Set up:
+### Set up:
 
-# 🔐 USB Login Guard
+## 🔐 USB Login Guard
 ---
 
-## 📋 What This Does
+### 📋 What This Does
 
 - A PowerShell script checks for a USB stick with a specific serial number.
 - If the USB stick is not found, it triggers immediate logoff.
@@ -55,3 +55,5 @@ If the USB device is missing, the user will be logged off immediately.
 #### Please Note:
 
   If any troubles occour dont mind asking for help and writing a comment
+
+Version: 0.2
