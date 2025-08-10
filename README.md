@@ -4,9 +4,8 @@ If the USB device is missing, the user will be logged off immediately. The whole
 ---
 ### Warning: Do not implement this code in systems that you are not allowed to have full access to, this code Code may result in complete loss of user information.
 
-### Set up:
 
-## 🔐 USB Login Guard
+## 🔐 WAC-Desc
 ---
 
 ### 📋 What This Does
@@ -23,6 +22,8 @@ If the USB device is missing, the user will be logged off immediately. The whole
 
   Open your PowerShell as adiministrator and type: "Get-WmiObject Win32_DiskDrive | Where-Object {$_.InterfaceType -eq "USB"} | Select-Object SerialNumber, Model >>"
   This will give you the Serial-Number of your USB-Stick which is important for the code
+
+## Installation/Usage
 
 #### Step 1:
 
