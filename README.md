@@ -2,7 +2,8 @@
 This project implements an access control system for a user by allowing a user to log in only with his password and a specific access key (in this example a USB stick).
 If the USB device is missing, the user will be logged off immediately. The whole process is also logged and saved in a log.txt file in the Scripts Folder on your main mount(Detailed in Desc.).
 ---
-### Warning: Do not implement this code in systems that you are not allowed to have full access to, this code Code may result in complete loss of user information.
+> [!WARNING]
+> ### Warning: Do not implement this code in systems that you are not allowed to have full access to, this code Code may result in complete loss of user information.
 
 
 ## 🔐 WAC-Desc
@@ -18,7 +19,8 @@ If the USB device is missing, the user will be logged off immediately. The whole
 
 ---
 
-### Before you start:
+> [!NOTE]
+> ### Before you start:
 
   Open your PowerShell as adiministrator and type: "Get-WmiObject Win32_DiskDrive | Where-Object {$_.InterfaceType -eq "USB"} | Select-Object SerialNumber, Model >>"
   This will give you the Serial-Number of your USB-Stick which is important for the code
